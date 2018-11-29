@@ -1,0 +1,19 @@
+{
+    "flow_rule": {
+        "tenant_id": "ec48d178d511497087fbf741f6a00ee0",
+        "program_id": "724a9e05-1dd3-4611-aa92-2d5ba899dec1",
+        "entry": {
+            "type": "runtime",
+            "table_id": "ipv4_lpm",
+            "match_keys": [
+                "10.0.0.10/32"
+            ],
+            "action_name": "set_nhop",
+            "action_params": [
+                "10.0.0.10",
+                "2"
+            ],
+            "priority": ""
+        }
+    }
+}

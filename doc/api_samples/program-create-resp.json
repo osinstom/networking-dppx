@@ -1,0 +1,9 @@
+{
+    "program": {
+        "name": "PROGRAM1",
+        "tenant_id": "ec48d178d511497087fbf741f6a00ee0",
+        "description": "Test program",
+        "image_name": "p4-test",
+        "id": "724a9e05-1dd3-4611-aa92-2d5ba899dec1"
+    }
+}

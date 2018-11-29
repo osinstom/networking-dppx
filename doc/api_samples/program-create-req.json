@@ -1,0 +1,40 @@
+{
+    "program": {
+        "name": "PROGRAM1",
+        "tenant_id": "ec48d178d511497087fbf741f6a00ee0",
+        "description": "Test program",
+        "image_name": "p4-test",
+        "flow_rules": [
+            {
+                "entry": {
+                    "type": "default",
+                    "table_id": "send_frame",
+                    "match_keys": [],
+                    "action_name": "_drop",
+                    "action_params": [],
+                    "priority": ""
+                }
+            },
+            {
+                "entry": {
+                    "type": "default",
+                    "table_id": "forward",
+                    "match_keys": [],
+                    "action_name": "_drop",
+                    "action_params": "",
+                    "priority": ""
+                }
+            },
+            {
+                "entry": {
+                    "type": "default",
+                    "table_id": "ipv4_lpm",
+                    "match_keys": [],
+                    "action_name": "_drop",
+                    "action_params": [],
+                    "priority": ""
+                }
+            }
+        ]
+    }
+}

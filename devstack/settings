@@ -1,0 +1,8 @@
+# settings for networking-p4 devstack plugin
+
+NETWORKING_P4_DIR=${NETWORKING_P4_DIR:-"$DEST/networking-p4"}
+
+NEUTRON_P4_PLUGIN=${NEUTRON_P4_PLUGIN:-"networking_p4.services.plugin.P4Plugin"}
+NEUTRON_P4_AGENT=${NEUTRON_P4_AGENT:-"networking_p4.agent.p4_agent.P4AgentExtension"}
+
+NEUTRON_PDP_DRIVERS=${NEUTRON_PDP_DRIVERS:-"default"}

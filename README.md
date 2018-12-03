@@ -17,4 +17,4 @@ Note that DPPx is an ongoing research work. This version of networking-p4 is a r
 
 ## Contacts ##
 
-Tomek Osiński <tomasz.osinski2@orange.com>
+Tomek Osiński < tomasz.osinski2@orange.com >

@@ -13,7 +13,11 @@ Note that DPPx is an ongoing research work. This version of networking-p4 is a r
  
 ## How to install? ##
 
+The DPPx plugin was tested on DevStack (Pike) installation. In order to install DevStack follow steps on https://docs.openstack.org/devstack/latest/. The `local.conf` file to configure the DevStack to use the DPPx plugin is provided in the `devstack/` directory. Make sure you use the Pike branch of DevStack before installation.
+
 ## How to use? ##
+
+
 
 ## Contacts ##
 
